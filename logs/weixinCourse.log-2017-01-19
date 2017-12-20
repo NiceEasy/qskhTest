@@ -1,0 +1,5 @@
+[INFO ] 2017-01-19 21:18:58,022 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[ERROR] 2017-01-19 21:20:17,177 org.liufeng.course.util.MenuUtil 创建菜单失败 errcode:40016 errmsg:invalid button size hint: [bgXf_a0060vr18]
+[INFO ] 2017-01-19 21:20:17,177 org.liufeng.weixin.main.MenuManager 菜单创建失败！
+[INFO ] 2017-01-19 21:20:43,871 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[INFO ] 2017-01-19 21:21:43,521 org.liufeng.weixin.main.MenuManager 菜单创建成功！

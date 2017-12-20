@@ -1,0 +1,2464 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+<snippets>
+    <category filters="*" id="org.eclipse.jst.jsp.ui.category0" initial_state="1" plugin="org.eclipse.jst.jsp.ui" version="1.1.600.me201207251757"/>
+    <category filters="*" id="category_1091575480290" initial_state="0" label="CSS" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1091575480290" class="" editorclass="" id="item_1091575491746" label="Add comments" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Multi-Line CSS Comment]]></description>
+            <content><![CDATA[/*
+*/]]></content>
+        </item>
+        <item category="category_1091575480290" class="" editorclass="" id="item_1091581170642" label="Change Table Cell Background Colors" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Table Cell Background Colors Change on Mouseover]]></description>
+            <content><![CDATA[// add to your "external" style sheet that controls the "onload" table cell color, border width and color.
+
+.btnav { background-color: #84C1DF; border: 1px #000000 solid;} 
+
+//Use following in table cell
+<td class="btnav" onmouseover="style.backgroundColor='#84DFC1';"
+	onmouseout="style.backgroundColor='#84C1DF'"> 
+	<div align="center"><a href="http://www.mylink.com/" target="_blank">MyLink</a></div>
+</td> 
+
+]]></content>
+        </item>
+        <item category="category_1091575480290" class="" editorclass="" id="item_1091586503910" label="Add Style Class" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Simple Class Style]]></description>
+            <content><![CDATA[.Style {
+		color: #000000;
+		font-size: 11px;
+		font-family: Arial, sans-serif;
+		letter-spacing: 3px;
+		background: none;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 3px;
+		text-decoration: none;
+		line-height: 14px;
+		display: compact;
+		padding: 0px;
+}]]></content>
+        </item>
+    </category>
+    <category filters="*" id="category_1091552129152" initial_state="0" label="Useful Form Lists" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552253261" label="List 50 States-Full Name" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A list menu of the 50 United States of America for use within a form. The full name of the state is given, and postal abbreviation is the corresponding value.]]></description>
+            <content><![CDATA[<select name="fiftyStates">
+  <option value="" selected>-:Select a State:-</option>
+  <option value="AL">Alabama</option>
+  <option value="AK">Alaska</option>
+  <option value="AZ">Arizona</option>
+  <option value="AR">Arkansas</option>
+  <option value="CA">California</option>
+  <option value="CO">Colorado</option>
+  <option value="CT">Connecticut</option>
+  <option value="DE">Delaware</option>
+  <option value="FL">Florida</option>
+  <option value="GA">Georgia</option>
+  <option value="HI">Hawaii</option>
+  <option value="ID">Idaho</option>
+  <option value="IL">Illinois</option>
+  <option value="IN">Indiana</option>
+  <option value="IA">Iowa</option>
+  <option value="KS">Kansas</option>
+  <option value="KY">Kentucky</option>
+  <option value="LA">Louisiana</option>
+  <option value="ME">Maine</option>
+  <option value="MD">Maryland</option>
+  <option value="MA">Massachusetts</option>
+  <option value="MI">Michigan</option>
+  <option value="MN">Minnesota</option>
+  <option value="MS">Mississippi</option>
+  <option value="MO">Missouri</option>
+  <option value="MT">Montana</option>
+  <option value="NE">Nebraska</option>
+  <option value="NV">Nevada</option>
+  <option value="NH">New Hampshire</option>
+  <option value="NJ">New Jersey</option>
+  <option value="NM">New Mexico</option>
+  <option value="NY">New York</option>
+  <option value="NC">North Carolina</option>
+  <option value="ND">North Dakota</option>
+  <option value="OH">Ohio</option>
+  <option value="OK">Oklahoma</option>
+  <option value="OR">Oregon</option>
+  <option value="PA">Pennsylvania</option>
+  <option value="RI">Rhode Island</option>
+  <option value="SC">South Carolina</option>
+  <option value="SD">South Dakota</option>
+  <option value="TN">Tennessee</option>
+  <option value="TX">Texas</option>
+  <option value="UT">Utah</option>
+  <option value="VT">Vermont</option>
+  <option value="VA">Virginia</option>
+  <option value="WA">Washington</option>
+  <option value="WV">West Virginia</option>
+  <option value="WI">Wisconsin</option>
+  <option value="WY">Wyoming</option>
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552144084" label="List 50 States-Abbreviated" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A list menu of the 50 United States of America for use within a form. The state and value are both the postal abbreviation.]]></description>
+            <content><![CDATA[<select name="fiftyStatesAbb">
+  <option value="" selected>-:State:-</option>
+  <option value="AK">AK</option>
+  <option value="AL">AL</option>
+  <option value="AR">AR</option>
+  <option value="AZ">AZ</option>
+  <option value="CA">CA</option>
+  <option value="CO">CO</option>
+  <option value="CT">CT</option>
+  <option value="DE">DE</option>
+  <option value="FL">FL</option>
+  <option value="GA">GA</option>
+  <option value="HI">HI</option>
+  <option value="IA">IA</option>
+  <option value="ID">ID</option>
+  <option value="IL">IL</option>
+  <option value="IN">IN</option>
+  <option value="KS">KS</option>
+  <option value="KY">KY</option>
+  <option value="LA">LA</option>
+  <option value="MA">MA</option>
+  <option value="MD">MD</option>
+  <option value="ME">ME</option>
+  <option value="MI">MI</option>
+  <option value="MN">MN</option>
+  <option value="MO">MO</option>
+  <option value="MS">MS</option>
+  <option value="MT">MT</option>
+  <option value="NC">NC</option>
+  <option value="ND">ND</option>
+  <option value="NE">NE</option>
+  <option value="NH">NH</option>
+  <option value="NJ">NJ</option>
+  <option value="NM">NM</option>
+  <option value="NV">NV</option>
+  <option value="NY">NY</option>
+  <option value="OH">OH</option>
+  <option value="OK">OK</option>
+  <option value="OR">OR</option>
+  <option value="PA">PA</option>
+  <option value="RI">RI</option>
+  <option value="SC">SC</option>
+  <option value="SD">SD</option>
+  <option value="TN">TN</option>
+  <option value="TX">TX</option>
+  <option value="UT">UT</option>
+  <option value="VA">VA</option>
+  <option value="VT">VT</option>
+  <option value="WA">WA</option>
+  <option value="WI">WI</option>
+  <option value="WV">WV</option>
+  <option value="WY">WY</option>
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091556064611" label="Canadian Provinces &amp; US Territories" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[List Menu of Canadian Provinces & US Territories]]></description>
+            <content><![CDATA[<select name="selectastate">
+	<option value="" selected>Select One</option>
+	<option value="">-:Canadian Provinces:-</option>
+	<option value="AB">Alberta</option>
+	<option value="BC">British Columbia</option>
+	<option value="MB">Manitoba</option>
+	<option value="NF">Newfoundland</option>
+	<option value="NB">New Brunswick</option>
+	<option value="NT">Northwest Territories</option>
+	<option value="NS">Nova Scotia</option>
+	<option value="ON">Ontario</option>
+	<option value="PE">Prince Edward Island</option>
+	<option value="QC">Quebec</option>
+	<option value="SK">Saskatchewan</option>
+	<option value="YT">Yukon</option>
+	<option value="">-:US Territories:-</option>
+	<option value="AS">American Samoa</option>
+	<option value="FM">Fed. Micronesia</option>
+	<option value="GU">Guam</option>
+	<option value="MH">Marshall Island</option>
+	<option value="MP">N. Mariana Is.</option>
+	<option value="PW">Palau Island</option>
+	<option value="PR">Puerto Rico</option>
+	<option value="VI">Virgin Islands</option>
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552321559" label="List Countries-Regions" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[List menu of 65 Countries/Regions to be used as part of a form]]></description>
+            <content><![CDATA[<select name="select">
+    <option value="">-:Select Country/Region:-</option>
+    <option value="Africa">Africa</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Australia">Australia</option>
+    <option value="Austria">Austria</option>
+    <option value="Belgium">Belgium</option>
+    <option value="Brazil">Brazil</option>
+    <option value="Bulgaria">Bulgaria</option>
+    <option value="Canada">Canada</option>
+    <option value="Caribbean">Caribbean</option>
+    <option value="Central America">Central America</option>
+    <option value="Chile">Chile</option>
+    <option value="China">China</option>
+    <option value="Colombia">Colombia</option>
+    <option value="Costa Rica">Costa Rica</option>
+    <option value="Croatia">Croatia</option>
+    <option value="Czech Republic">Czech Republic</option>
+    <option value="Denmark">Denmark</option>
+    <option value="Dominican Republic">Dominican Republic</option>
+    <option value="Estonia">Estonia</option>
+    <option value="Finland">Finland</option>
+    <option value="France">France</option>
+    <option value="Germany">Germany</option>
+    <option value="Greece">Greece</option>
+    <option value="Guatemala">Guatemala</option>
+    <option value="Hong Kong">Hong Kong</option>
+    <option value="Hungary">Hungary</option>
+    <option value="India">India</option>
+    <option value="Indonesia">Indonesia</option>
+    <option value="Ireland">Ireland</option>
+    <option value="Israel">Israel</option>
+    <option value="Italy">Italy</option>
+    <option value="Japan">Japan</option>
+    <option value="Korea">Korea</option>
+    <option value="Latvia">Latvia</option>
+    <option value="Lithuania">Lithuania</option>
+    <option value="Malaysia">Malaysia</option>
+    <option value="Mexico">Mexico</option>
+    <option value="Middle East">Middle East</option>
+    <option value="Morocco">Morocco</option>
+    <option value="Netherlands">Netherlands</option>
+    <option value="New Zealand">New Zealand</option>
+    <option value="Norway">Norway</option>
+    <option value="Panama">Panama</option>
+    <option value="Peru">Peru</option>
+    <option value="Philippines">Philippines</option>
+    <option value="Poland">Poland</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Puerto Rico">Puerto Rico</option>
+    <option value="Romania">Romania</option>
+    <option value="Russian Federation">Russian Federation</option>
+    <option value="Singapore">Singapore</option>
+    <option value="Slovakia">Slovakia</option>
+    <option value="Slovenia">Slovenia</option>
+    <option value="South Africa">South Africa</option>
+    <option value="Spain">Spain</option>
+    <option value="Sweden">Sweden</option>
+    <option value="Switzerland">Switzerland</option>
+    <option value="Taiwan">Taiwan</option>
+    <option value="Thailand">Thailand</option>
+    <option value="Turkey">Turkey</option>
+    <option value="Ukraine">Ukraine</option>
+    <option value="United Kingdom">United Kingdom</option>
+    <option value="United States">United States</option>
+    <option value="Venezuela">Venezuela</option>
+    <option value="Vietnam">Vietnam</option>
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091577341576" label="Year List 1900 - 2007" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A form field drop down menu of the years from 1900-2007, returns a 4 digit year.]]></description>
+            <content><![CDATA[<select name="Year">
+  <option value="2007">2007</option>
+
+  <option value="2006">2006</option>
+
+  <option value="2005">2005</option>
+
+  <option value="2004">2004</option>
+
+  <option value="2003">2003</option>
+
+  <option value="2002">2002</option>
+
+  <option value="2001">2001</option>
+
+  <option value="2000">2000</option>
+
+  <option value="1999">1999</option>
+
+  <option value="1998">1998</option>
+
+  <option value="1997">1997</option>
+
+  <option value="1996">1996</option>
+
+  <option value="1995">1995</option>
+
+  <option value="1994">1994</option>
+
+  <option value="1993">1993</option>
+
+  <option value="1992">1992</option>
+
+  <option value="1991">1991</option>
+
+  <option value="1990">1990</option>
+
+  <option value="1989">1989</option>
+
+  <option value="1988">1988</option>
+
+  <option value="1987">1987</option>
+
+  <option value="1986">1986</option>
+
+  <option value="1985">1985</option>
+
+  <option value="1984">1984</option>
+
+  <option value="1983">1983</option>
+
+  <option value="1982">1982</option>
+
+  <option value="1981">1981</option>
+
+  <option value="1980">1980</option>
+
+  <option value="1982">1982</option>
+
+  <option value="1981">1981</option>
+
+  <option value="1980">1980</option>
+
+  <option value="1979">1979</option>
+
+  <option value="1978">1978</option>
+
+  <option value="1977">1977</option>
+
+  <option value="1976">1976</option>
+
+  <option value="1975">1975</option>
+
+  <option value="1974">1974</option>
+
+  <option value="1973">1973</option>
+
+  <option value="1972">1972</option>
+
+  <option value="1971">1971</option>
+
+  <option value="1970">1970</option>
+
+  <option value="1969">1969</option>
+
+  <option value="1968">1968</option>
+
+  <option value="1967">1967</option>
+
+  <option value="1966">1966</option>
+
+  <option value="1965">1965</option>
+
+  <option value="1964">1964</option>
+
+  <option value="1963">1963</option>
+
+  <option value="1962">1962</option>
+
+  <option value="1961">1961</option>
+
+  <option value="1960">1960</option>
+
+  <option value="1959">1959</option>
+
+  <option value="1958">1958</option>
+
+  <option value="1957">1957</option>
+
+  <option value="1956">1956</option>
+
+  <option value="1955">1955</option>
+
+  <option value="1954">1954</option>
+
+  <option value="1953">1953</option>
+
+  <option value="1952">1952</option>
+
+  <option value="1951">1951</option>
+
+  <option value="1950">1950</option>
+
+  <option value="1949">1949</option>
+
+  <option value="1948">1948</option>
+
+  <option value="1947">1947</option>
+
+  <option value="1946">1946</option>
+
+  <option value="1945">1945</option>
+
+  <option value="1944">1944</option>
+
+  <option value="1943">1943</option>
+
+  <option value="1942">1942</option>
+
+  <option value="1941">1941</option>
+
+  <option value="1940">1940</option>
+
+  <option value="1939">1939</option>
+
+  <option value="1938">1938</option>
+
+  <option value="1937">1937</option>
+
+  <option value="1936">1936</option>
+
+  <option value="1935">1935</option>
+
+  <option value="1934">1934</option>
+
+  <option value="1933">1933</option>
+
+  <option value="1932">1932</option>
+
+  <option value="1931">1931</option>
+
+  <option value="1930">1930</option>
+
+  <option value="1929">1929</option>
+
+  <option value="1928">1928</option>
+
+  <option value="1927">1927</option>
+
+  <option value="1926">1926</option>
+
+  <option value="1925">1925</option>
+
+  <option value="1924">1924</option>
+
+  <option value="1923">1923</option>
+
+  <option value="1922">1922</option>
+
+  <option value="1921">1921</option>
+
+  <option value="1920">1920</option>
+
+  <option value="1919">1919</option>
+
+  <option value="1918">1918</option>
+
+  <option value="1917">1917</option>
+
+  <option value="1916">1916</option>
+
+  <option value="1915">1915</option>
+
+  <option value="1914">1914</option>
+
+  <option value="1913">1913</option>
+
+  <option value="1912">1912</option>
+
+  <option value="1911">1911</option>
+
+  <option value="1910">1910</option>
+
+  <option value="1909">1909</option>
+
+  <option value="1908">1908</option>
+
+  <option value="1907">1907</option>
+
+  <option value="1906">1906</option>
+
+  <option value="1905">1905</option>
+
+  <option value="1904">1904</option>
+
+  <option value="1903">1903</option>
+
+  <option value="1902">1902</option>
+
+  <option value="1901">1901</option>
+
+  <option value="1900">1900</option>
+
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552454841" label="List Months" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A list menu of the Months in a year with corresponding numeric value for use within a form.]]></description>
+            <content><![CDATA[<select name="selectMonth">
+    <option value="00" selected>-:Month:-</option>
+    <option value="01">January</option>
+    <option value="02">February</option>
+    <option value="03">March</option>
+    <option value="04">April</option>
+    <option value="05">May</option>
+    <option value="06">June</option>
+    <option value="07">July</option>
+    <option value="08">August</option>
+    <option value="09">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552375947" label="List Days of Week" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A list menu of the 7 days in a week with corresponding numeric value for use within a form]]></description>
+            <content><![CDATA[<select name="selectDay">
+    <option value="0" selected>-:Day:-</option>
+    <option value="1">Sunday</option>
+    <option value="2">Monday</option>
+    <option value="3">Tuesday</option>
+    <option value="4">Wednesday</option>
+    <option value="5">Thursday</option>
+    <option value="6">Friday</option>
+    <option value="7">Saturday</option>
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552627469" label="List Timezone" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A list of GMT time zones]]></description>
+            <content><![CDATA[<select name="timezone">
+	<option value=-12>(GMT -12:00 hours) Eniwetok, Kwajalein</option>
+	<option value=-11>(GMT -11:00 hours) Midway Island, Samoa</option>
+	<option value=-10>(GMT -10:00 hours) Hawaii</option>
+	<option value=-9>(GMT -9:00 hours) Alaska</option>
+	<option value=-8 selected>(GMT -8:00 hours) Pacific Time (US & Canada)</option>
+	<option value=-7>(GMT -7:00 hours) Mountain Time (US & Canada)</option>
+	<option value=-6>(GMT -6:00 hours) Central Time (US & Canada)</option>
+	<option value=-5>(GMT -5:00 hours) Eastern Time (US & Canada)</option>
+	<option value=-4>(GMT -4:00 hours) Atlantic Time (Canada)</option>
+	<option value=-3.5>(GMT -3:30 hours)Newfoundland</option>
+	<option value=-3>(GMT -3:00 hours) Buenos Aires,Georgetown</option>
+	<option value=-2>(GMT -2:00 hours) Mid-Atlantic, AscensionIs</option>
+	<option value=-1>(GMT -1:00 hours) Azores, Cape Verde Islands</option>
+	<option value=0>(GMT) Casablanca, Dublin, Edinburgh, London,Lisbon</option>
+	<option value=1>(GMT +1:00 hours) Amsterdam, Berlin, Madrid,Paris</option>
+	<option value=2>(GMT +2:00 hours) Cairo, Helsinki,South Africa</option>
+	<option value=3>(GMT +3:00 hours) Baghdad, Riyadh, Moscow,Nairobi</option>
+	<option value=3.5>(GMT +3:30 hours) Tehran</option>
+	<option value=4>(GMT +4:00 hours) Abu Dhabi, Baku, Muscat,Tbilisi</option>
+	<option value=4.5>(GMT +4:30 hours) Kabul</option>
+	<option value=5>(GMT +5:00 hours) Islamabad, Karachi,Tashkent</option>
+	<option value=5.5>(GMT +5:30 hours) Bombay, Calcutta,New Delhi</option>
+	<option value=6>(GMT +6:00 hours) Almaty, Colombo,Novosibirsk</option>
+	<option value=6.5>(GMT +6:30 hours) Rangoon</option>
+	<option value=7>(GMT +7:00 hours) Bangkok, Hanoi, Jakarta</option>
+	<option value=8>(GMT +8:00 hours) Beijing, Hong Kong,Singapore</option>
+	<option value=9>(GMT +9:00 hours) Osaka, Sapporo, Seoul,Tokyo</option>
+	<option value=9.5>(GMT +9:30 hours) Adelaide, Darwin</option>
+	<option value=10>(GMT +10:00 hours) Guam, Melbourne,Sydney</option>
+	<option value=11>(GMT +11:00 hours) Magadan, New Caledonia</option>
+	<option value=12>(GMT +12:00 hours) Auckland, Fiji, Marshall Island</option>
+</select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552526494" label="List Time AM/PM" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[List menu of time from midnight thru 11:45 (AM/PM) in 15 minute increments]]></description>
+            <content><![CDATA[<select name="select">
+    <option>Select Time</option>
+    <option value="Midnight">Midnight</option>
+    <option value="12:00 AM">12:00 AM</option>
+    <option value="12:15 AM">12:15 AM</option>
+    <option value="12:30 AM">12:30 AM</option>
+    <option value="12:45 AM">12:45 AM</option>
+    <option value="1:00 AM">1:00 AM</option>
+    <option value="1:15 AM">1:15 AM</option>
+    <option value="1:30 AM">1:30 AM</option>
+    <option value="1:45 AM">1:45 AM</option>
+    <option value="2:00 AM">2:00 AM</option>
+    <option value="2:15 AM">2:15 AM</option>
+    <option value="2:30 AM">2:30 AM</option>
+    <option value="2:45 AM">2:45 AM</option>
+    <option value="3:00 AM">3:00 AM</option>
+    <option value="3:15 AM">3:15 AM</option>
+    <option value="3:30 AM">3:30 AM</option>
+    <option value="3:45 AM">3:45 AM</option>
+    <option value="4:00 AM">4:00 AM</option>
+    <option value="4:15 AM">4:15 AM</option>
+    <option value="4:30 AM">4:30 AM</option>
+    <option value="4:45 AM">4:45 AM</option>
+    <option value="5:00 AM">5:00 AM</option>
+    <option value="5:15 AM">5:15 AM</option>
+    <option value="5:30 AM">5:30 AM</option>
+    <option value="5:45 AM">5:45 AM</option>
+    <option value="6:00 AM">6:00 AM</option>
+    <option value="6:15 AM">6:15 AM</option>
+    <option value="6:30 AM">6:30 AM</option>
+    <option value="6:45 AM">6:45 AM</option>
+    <option value="7:00 AM">7:00 AM</option>
+    <option value="7:15 AM">7:15 AM</option>
+    <option value="7:30 AM">7:30 AM</option>
+    <option value="7:45 AM">7:45 AM</option>
+    <option value="8:00 AM">8:00 AM</option>
+    <option value="8:15 AM">8:15 AM</option>
+    <option value="8:30 AM">8:30 AM</option>
+    <option value="8:45 AM">8:45 AM</option>
+    <option value="9:00 AM">9:00 AM</option>
+    <option value="9:15 AM">9:15 AM</option>
+    <option value="9:30 AM">9:30 AM</option>
+    <option value="9:45 AM">9:45 AM</option>
+    <option value="10:00 AM">10:00 AM</option>
+    <option value="10:15 AM">10:15 AM</option>
+    <option value="10:30 AM">10:30 AM</option>
+    <option value="10:45 AM">10:45 AM</option>
+    <option value="11:00 AM">11:00 AM</option>
+    <option value="11:15 AM">11:15 AM</option>
+    <option value="11:30 AM">11:30 AM</option>
+    <option value="11:45 AM">11:45 AM</option>
+    <option value="Noon">Noon</option>
+    <option value="12:00 PM">12:00 PM</option>
+    <option value="12:15 PM">12:15 PM</option>
+    <option value="12:30 PM">12:30 PM</option>
+    <option value="12:45 PM">12:45 PM</option>
+    <option value="1:00 PM">1:00 PM</option>
+    <option value="1:15 PM">1:15 PM</option>
+    <option value="1:30 PM">1:30 PM</option>
+    <option value="1:45 PM">1:45 PM</option>
+    <option value="2:00 PM">2:00 PM</option>
+    <option value="2:15 PM">2:15 PM</option>
+    <option value="2:30 PM">2:30 PM</option>
+    <option value="2:45 PM">2:45 PM</option>
+    <option value="3:00 PM">3:00 PM</option>
+    <option value="3:15 PM">3:15 PM</option>
+    <option value="3:30 PM">3:30 PM</option>
+    <option value="3:45 PM">3:45 PM</option>
+    <option value="4:00 PM">4:00 PM</option>
+    <option value="4:15 PM">4:15 PM</option>
+    <option value="4:30 PM">4:30 PM</option>
+    <option value="4:45 PM">4:45 PM</option>
+    <option value="5:00 PM">5:00 PM</option>
+    <option value="5:15 PM">5:15 PM</option>
+    <option value="5:30 PM">5:30 PM</option>
+    <option value="5:45 PM">5:45 PM</option>
+    <option value="6:00 PM">6:00 PM</option>
+    <option value="6:15 PM">6:15 PM</option>
+    <option value="6:30 PM">6:30 PM</option>
+    <option value="6:45 PM">6:45 PM</option>
+    <option value="7:00 PM">7:00 PM</option>
+    <option value="7:15 PM">7:15 PM</option>
+    <option value="7:30 PM">7:30 PM</option>
+    <option value="7:45 PM">7:45 PM</option>
+    <option value="8:00 PM">8:00 PM</option>
+    <option value="8:15 PM">8:15 PM</option>
+    <option value="8:30 PM">8:30 PM</option>
+    <option value="8:45 PM">8:45 PM</option>
+    <option value="9:00 PM">9:00 PM</option>
+    <option value="9:15 PM">9:15 PM</option>
+    <option value="9:30 PM">9:30 PM</option>
+    <option value="9:45 PM">9:45 PM</option>
+    <option value="10:00 PM">10:00 PM</option>
+    <option value="10:15 PM">10:15 PM</option>
+    <option value="10:30 PM">10:30 PM</option>
+    <option value="10:45 PM">10:45 PM</option>
+    <option value="11:00 PM">11:00 PM</option>
+    <option value="11:15 PM">11:15 PM</option>
+    <option value="11:30 PM">11:30 PM</option>
+    <option value="11:45 PM">11:45 PM</option>
+  </select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091552828718" label="24 Hour Military Time" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[This is a group of three list menus for setting 24 hour military time to the second.]]></description>
+            <content><![CDATA[<select name="hour">
+          <option value="Hours" selected>Hr</option>
+          <option value="00">00</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+        </select>
+        : 
+        <select name="minutes">
+          <option value="Minutes" selected>Min</option>
+          <option value="00">00</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+          <option value="46">46</option>
+          <option value="47">47</option>
+          <option value="48">48</option>
+          <option value="49">49</option>
+          <option value="50">50</option>
+          <option value="51">51</option>
+          <option value="52">52</option>
+          <option value="53">53</option>
+          <option value="54">54</option>
+          <option value="55">55</option>
+          <option value="56">56</option>
+          <option value="57">57</option>
+          <option value="58">58</option>
+          <option value="59">59</option>
+        </select>
+        : 
+        <select name="seconds">
+          <option value="Seconds" selected>Sec</option>
+          <option value="00">00</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          <option value="32">32</option>
+          <option value="33">33</option>
+          <option value="34">34</option>
+          <option value="35">35</option>
+          <option value="36">36</option>
+          <option value="37">37</option>
+          <option value="38">38</option>
+          <option value="39">39</option>
+          <option value="40">40</option>
+          <option value="41">41</option>
+          <option value="42">42</option>
+          <option value="43">43</option>
+          <option value="44">44</option>
+          <option value="45">45</option>
+          <option value="46">46</option>
+          <option value="47">47</option>
+          <option value="48">48</option>
+          <option value="49">49</option>
+          <option value="50">50</option>
+          <option value="51">51</option>
+          <option value="52">52</option>
+          <option value="53">53</option>
+          <option value="54">54</option>
+          <option value="55">55</option>
+          <option value="56">56</option>
+          <option value="57">57</option>
+          <option value="58">58</option>
+          <option value="59">59</option>
+        </select>]]></content>
+        </item>
+        <item category="category_1091552129152" class="" editorclass="" id="item_1091574335584" label="Currency Dropdown" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Displays a drop down form element with 164 Countries, the value of each element being the Currency abbreviation for that Country.]]></description>
+            <content><![CDATA[<select name="currency">
+
+	<option value="USD" SELECTED>US Dollar (USD)</option>
+
+	<option value="AFA">Afghanistan Afghani (AFA)</option>
+
+	<option value="ALL">Albanian Lek (ALL)</option>
+
+	<option value="DZD">Algerian Dinar (DZD)</option>
+
+	<option value="ADF">Andorran Franc (ADF)</option>
+
+	<option value="ADP">Andorran Peseta (ADP)</option>
+
+	<option value="AON">Angolan New Kwanza (AON)</option>
+
+	<option value="ARS">Argentine Peso (ARS)</option>
+
+	<option value="AWG">Aruban Florin (AWG)</option>
+
+	<option value="AUD">Australian Dollar (AUD)</option>
+
+	<option value="ATS">Austrian Schilling (ATS)</option>
+
+	<option value="BSD">Bahamanian Dollar (BSD)</option>
+
+	<option value="BHD">Bahraini Dinar (BHD)</option>
+
+	<option value="BDT">Bangladeshi Taka (BDT)</option>
+
+	<option value="BBD">Barbados Dollar (BBD)</option>
+
+	<option value="BEF">Belgian Franc (BEF)</option>
+
+	<option value="BZD">Belize Dollar (BZD)</option>
+
+	<option value="BMD">Bermudian Dollar (BMD)</option>
+
+	<option value="BTN">Bhutan Ngultrum (BTN)</option>
+
+	<option value="BOB">Bolivian Boliviano (BOB)</option>
+
+	<option value="BWP">Botswana Pula (BWP)</option>
+
+	<option value="BRL">Brazilian Real (BRL)</option>
+
+	<option value="GBP">British Pound (GBP)</option>
+
+	<option value="BND">Brunei Dollar (BND)</option>
+
+	<option value="BGL">Bulgarian Lev (BGL)</option>
+
+	<option value="BIF">Burundi Franc (BIF)</option>
+
+	<option value="XOF">CFA Franc BCEAO (XOF)</option>
+
+	<option value="XAF">CFA Franc BEAC (XAF)</option>
+
+	<option value="KHR">Cambodian Riel (KHR)</option>
+
+	<option value="CAD">Canadian Dollar (CAD)</option>
+
+	<option value="CVE">Cape Verde Escudo (CVE)</option>
+
+	<option value="KYD">Cayman Islands Dollar (KYD)</option>
+
+	<option value="CFP">Central Pacific Franc (CFP)</option>
+
+	<option value="CLP">Chilean Peso (CLP)</option>
+
+	<option value="CNY">Chinese Yuan Renminbi (CNY)</option>
+
+	<option value="COP">Colombian Peso (COP)</option>
+
+	<option value="KMF">Comoros Franc (KMF)</option>
+
+	<option value="CRC">Costa Rican Colon (CRC)</option>
+
+	<option value="HRK">Croatian Kuna (HRK)</option>
+
+	<option value="CUP">Cuban Peso (CUP)</option>
+
+	<option value="CYP">Cyprus Pound (CYP)</option>
+
+	<option value="CSK">Czech Koruna (CSK)</option>
+
+	<option value="DKK">Danish Krone (DKK)</option>
+
+	<option value="DJF">Djibouti Franc (DJF)</option>
+
+	<option value="DOP">Dominican R. Peso (DOP)</option>
+
+	<option value="NLG">Dutch Guilder (NLG)</option>
+
+	<option value="XEU">ECU (XEU)</option>
+
+	<option value="XCD">East Caribbean Dollar (XCD)</option>
+
+	<option value="ECS">Ecuador Sucre (ECS)</option>
+
+	<option value="EGP">Egyptian Pound (EGP)</option>
+
+	<option value="SVC">El Salvador Colon (SVC)</option>
+
+	<option value="EEK">Estonian Kroon (EEK)</option>
+
+	<option value="ETB">Ethiopian Birr (ETB)</option>
+
+	<option value="EUR">Euro (EUR)</option>
+
+	<option value="FKP">Falkland Islands Pound (FKP)</option>
+
+	<option value="FJD">Fiji Dollar (FJD)</option>
+
+	<option value="FIM">Finnish Markka (FIM)</option>
+
+	<option value="FRF">French Franc (FRF)</option>
+
+	<option value="GMD">Gambian Dalasi (GMD)</option>
+
+	<option value="DEM">German Mark (DEM)</option>
+
+	<option value="GHC">Ghanaian Cedi (GHC)</option>
+
+	<option value="GIP">Gibraltar Pound (GIP)</option>
+
+	<option value="GRD">Greek Drachma (GRD)</option>
+
+	<option value="GTQ">Guatemalan Quetzal (GTQ)</option>
+
+	<option value="GNF">Guinea Franc (GNF)</option>
+
+	<option value="GYD">Guyanese Dollar (GYD)</option>
+
+	<option value="HTG">Haitian Gourde (HTG)</option>
+
+	<option value="HNL">Honduran Lempira (HNL)</option>
+
+	<option value="HKD">Hong Kong Dollar (HKD)</option>
+
+	<option value="HUF">Hungarian Forint (HUF)</option>
+
+	<option value="ISK">Iceland Krona (ISK)</option>
+
+	<option value="INR">Indian Rupee (INR)</option>
+
+	<option value="IDR">Indonesian Rupiah (IDR)</option>
+
+	<option value="IRR">Iranian Rial (IRR)</option>
+
+	<option value="IQD">Iraqi Dinar (IQD)</option>
+
+	<option value="IEP">Irish Punt (IEP)</option>
+
+	<option value="ILS">Israeli New Shekel (ILS)</option>
+
+	<option value="ITL">Italian Lira (ITL)</option>
+
+	<option value="JMD">Jamaican Dollar (JMD)</option>
+
+	<option value="JPY">Japanese Yen (JPY)</option>
+
+	<option value="JOD">Jordanian Dinar (JOD)</option>
+
+	<option value="KZT">Kazakhstan Tenge (KZT)</option>
+
+	<option value="KES">Kenyan Shilling (KES)</option>
+
+	<option value="KWD">Kuwaiti Dinar (KWD)</option>
+
+	<option value="LAK">Lao Kip (LAK)</option>
+
+	<option value="LVL">Latvian Lats (LVL)</option>
+
+	<option value="LBP">Lebanese Pound (LBP)</option>
+
+	<option value="LSL">Lesotho Loti (LSL)</option>
+
+	<option value="LRD">Liberian Dollar (LRD)</option>
+
+	<option value="LYD">Libyan Dinar (LYD)</option>
+
+	<option value="LTL">Lithuanian Litas (LTL)</option>
+
+	<option value="LUF">Luxembourg Franc (LUF)</option>
+
+	<option value="MOP">Macau Pataca (MOP)</option>
+
+	<option value="MGF">Malagasy Franc (MGF)</option>
+
+	<option value="MWK">Malawi Kwacha (MWK)</option>
+
+	<option value="MYR">Malaysian Ringgit (MYR)</option>
+
+	<option value="MVR">Maldive Rufiyaa (MVR)</option>
+
+	<option value="MTL">Maltese Lira (MTL)</option>
+
+	<option value="MRO">Mauritanian Ouguiya (MRO)</option>
+
+	<option value="MUR">Mauritius Rupee (MUR)</option>
+
+	<option value="MXP">Mexican Peso (MXP)</option>
+
+	<option value="MNT">Mongolian Tugrik (MNT)</option>
+
+	<option value="MAD">Moroccan Dirham (MAD)</option>
+
+	<option value="MZM">Mozambique Metical (MZM)</option>
+
+	<option value="MMK">Myanmar Kyat (MMK)</option>
+
+	<option value="ANG">NL Antillian Guilder (ANG)</option>
+
+	<option value="NAD">Namibia Dollar (NAD)</option>
+
+	<option value="NPR">Nepalese Rupee (NPR)</option>
+
+	<option value="NZD">New Zealand Dollar (NZD)</option>
+
+	<option value="NIO">Nicaraguan Cordoba Oro (NIO)</option>
+
+	<option value="NGN">Nigerian Naira (NGN)</option>
+
+	<option value="KPW">North Korean Won (KPW)</option>
+
+	<option value="NOK">Norwegian Kroner (NOK)</option>
+
+	<option value="OMR">Omani Rial (OMR)</option>
+
+	<option value="PKR">Pakistan Rupee (PKR)</option>
+
+	<option value="PAB">Panamanian Balboa (PAB)</option>
+
+	<option value="PGK">Papua New Guinea Kina (PGK)</option>
+
+	<option value="PYG">Paraguay Guarani (PYG)</option>
+
+	<option value="PEN">Peruvian Nuevo Sol (PEN)</option>
+
+	<option value="PHP">Philippine Peso (PHP)</option>
+
+	<option value="PLZ">Polish Zloty (PLZ)</option>
+
+	<option value="PTE">Portuguese Escudo (PTE)</option>
+
+	<option value="QAR">Qatari Rial (QAR)</option>
+
+	<option value="ROL">Romanian Leu (ROL)</option>
+
+	<option value="RUB">Russian Rouble (RUB)</option>
+
+	<option value="WST">Samoan Tala (WST)</option>
+
+	<option value="STD">Sao Tome/Principe Dobra (STD)</option>
+
+	<option value="SAR">Saudi Riyal (SAR)</option>
+
+	<option value="SCR">Seychelles Rupee (SCR)</option>
+
+	<option value="SLL">Sierra Leone Leone (SLL)</option>
+
+	<option value="SGD">Singapore Dollar (SGD)</option>
+
+	<option value="SKK">Slovak Koruna (SKK)</option>
+
+	<option value="SIT">Slovenian Tolar (SIT)</option>
+
+	<option value="SBD">Solomon Islands Dollar (SBD)</option>
+
+	<option value="SOS">Somali Shilling (SOS)</option>
+
+	<option value="ZAR">South African Rand (ZAR)</option>
+
+	<option value="KRW">South-Korean Won (KRW)</option>
+
+	<option value="ESP">Spanish Peseta (ESP)</option>
+
+	<option value="LKR">Sri Lanka Rupee (LKR)</option>
+
+	<option value="SHP">St. Helena Pound (SHP)</option>
+
+	<option value="SDD">Sudanese Dinar (SDD)</option>
+
+	<option value="SDP">Sudanese Pound (SDP)</option>
+
+	<option value="SRG">Suriname Guilder (SRG)</option>
+
+	<option value="SZL">Swaziland Lilangeni (SZL)</option>
+
+	<option value="SEK">Swedish Krona (SEK)</option>
+
+	<option value="CHF">Swiss Franc (CHF)</option>
+
+	<option value="SYP">Syrian Pound (SYP)</option>
+
+	<option value="TWD">Taiwan Dollar (TWD)</option>
+
+	<option value="TZS">Tanzanian Shilling (TZS)</option>
+
+	<option value="THB">Thai Baht (THB)</option>
+
+	<option value="TOP">Tonga Pa'anga (TOP)</option>
+
+	<option value="TTD">Trinidad/Tobago Dollar (TTD)</option>
+
+	<option value="TND">Tunisian Dinar (TND)</option>
+
+	<option value="TRL">Turkish Lira (TRL)</option>
+
+	<option value="UGS">Uganda Shilling (UGS)</option>
+
+	<option value="UAH">Ukraine Hryvnia (UAH)</option>
+
+	<option value="UYP">Uruguayan Peso (UYP)</option>
+
+	<option value="AED">Utd. Arab Emir. Dirham (AED)</option>
+
+	<option value="VUV">Vanuatu Vatu (VUV)</option>
+
+	<option value="VEB">Venezuelan Bolivar (VEB)</option>
+
+	<option value="VND">Vietnamese Dong (VND)</option>
+
+	<option value="YUN">Yugoslav Dinar (YUN)</option>
+
+	<option value="ZMK">Zambian Kwacha (ZMK)</option>
+
+	<option value="ZWD">Zimbabwe Dollar (ZWD)</option>
+
+</select>]]></content>
+        </item>
+    </category>
+    <category filters="*" id="category_1091575653469" initial_state="0" label="Form Elements" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1091575653469" class="" editorclass="" id="item_1091576424507" label="1 Field Form" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A simple form with one field]]></description>
+            <content><![CDATA[<table width="100%" border="0" cellspacing="0" cellpadding="4">
+
+  <tr> 
+
+    <td bgcolor="#000099"> 
+
+      <table width="100%" border="0" cellspacing="0" cellpadding="4">
+
+        <tr> 
+
+          <td bgcolor="#FFFFFF">&nbsp;<b>*</b>&nbsp;</td>
+
+          <td width="100%"><font color="#CCCCCC">&nbsp; <font color="#FFFFFF"><strong>Title</strong></font></font></td>
+
+        </tr>
+
+      </table></td>
+
+  </tr>
+
+  <tr> 
+
+     <td width="100%" bgcolor="#EAEAEA" colspan="2"> 
+
+      <form name="Name" action="post"><p>
+
+          <label for="textfield">Field 1: </label>
+
+          <input type="text" name="textfield" id="textfield">
+
+        </p>
+
+        <p> 
+
+          <input type="submit" name="Submit" value="Submit">
+
+        </p>
+
+    </form>
+
+  </td>
+
+  </tr>
+
+</table>]]></content>
+        </item>
+        <item category="category_1091575653469" class="" editorclass="" id="item_1091576464615" label="2 Field Form" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Form containing two fields and a button]]></description>
+            <content><![CDATA[<table width="100%" border="0" cellspacing="0" cellpadding="4">
+
+	<tr> 
+
+		<td bgcolor="#000099"> 
+
+			<table width="100%" border="0" cellspacing="0" cellpadding="4">
+
+				<tr> 
+
+					<td bgcolor="#FFFFFF">&nbsp;<b>*</b>&nbsp;</td>
+
+						<td width="100%"><font color="#CCCCCC">&nbsp; <font color="#FFFFFF">Title</font></font></td>
+
+				</tr>
+
+			</table></td>
+
+	</tr>
+
+	<tr> 
+
+		<td width="100%" bgcolor="#EAEAEA" colspan="2"> 
+
+			<form name="Name" action="post"><p>
+
+				<label for="textfield">Field 1</label>
+
+				<br>
+
+				<input type="text" name="textfield" id="textfield">
+
+				</p>
+
+				<p>
+
+				<label for="textfield2">Field 2</label>
+
+				<br>
+
+				<input type="text" name="textfield2" id="textfield2">
+
+				</p>
+
+				<p> 
+
+				<input type="submit" name="Submit" value="GO">
+
+				</p>
+
+				<p>&nbsp; </p>
+
+				</form>
+
+		</td>
+
+  </tr>
+
+</table>]]></content>
+        </item>
+        <item category="category_1091575653469" class="" editorclass="" id="item_1091575943726" label="Text Field, Autoclear" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A form text field displaying a default message; when the visitor clicks in the field, the default message disappears.]]></description>
+            <content><![CDATA[<input type="text" name="n" value="Your message" onFocus="if(this.value=='Your message')this.value='';">]]></content>
+        </item>
+        <item category="category_1091575653469" class="" editorclass="" id="item_1091575784177" label="Cancel Button" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Sends you back one page]]></description>
+            <content><![CDATA[<input type="button" name="Cancel" value="Cancel" onclick="javascript:history.go(-1);">]]></content>
+        </item>
+        <item category="category_1091575653469" class="" editorclass="" id="item_1091575885502" label="Browse-for-File Button" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A form button and text field allowing the visitor to specify a local file to upload.]]></description>
+            <content><![CDATA[<input type="file" name="user_file">]]></content>
+        </item>
+    </category>
+    <category filters="*" id="category_1091488184410" initial_state="0" label="HTML" largeicon="" smallicon="">
+        <description><![CDATA[Testupload and download]]></description>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091578972501" label="MetaTag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Header and complete MetaTag list]]></description>
+            <content><![CDATA[
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<head>
+
+<title> Title </title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<META NAME="DESCRIPTION" content=" Short description ">
+
+<META NAME="KEYWORDS" CONTENT=" List of keywords, comma is optional ">
+
+<meta NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+
+<meta NAME="ROBOTS" CONTENT="INDEX, ALL">
+
+<meta NAME="distribution" CONTENT="global">
+
+<meta name="resource-type" content="document">
+
+<meta http-equiv="expires" content="0">
+
+<meta name="author" content="MySite">
+
+<meta name="copyright" content="Copyright (c) 2004 MySite - http://www.mysite.com">
+
+<meta name="revisit-after" content="1 days">
+
+<meta name="language" content="en">
+
+
+
+<!-- Optional Tags for older browsers
+
+<meta http-equiv="Description" content="Eclipse plugin development tools for Java, JSP, XML, Struts, HTML, CSS and EJB">
+
+<meta http-equiv="KEYWORDS" content="eclipse, plug-in, plugin, plugins, XML, customization, J2EE, java, IDE, Struts, EJB ,JSP, editor, application server, IDE, weblogic, Websphere, jboss, orion, Oracle 9iAS, Jetty, JRun, Jonas, Xdoclet">
+
+-->
+
+
+
+<meta name="rating" content="General">
+
+<link rel="stylesheet" href="style.css" type="text/css">
+
+<SCRIPT LANGUAGE="JavaScript" type="text/javascript" src="javascript.js"></SCRIPT>
+
+</head>]]></content>
+        </item>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091575569057" label="Add Comments" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Multi-line Comment]]></description>
+            <content><![CDATA[
+<!--
+
+
+
+-->]]></content>
+        </item>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091488218409" label="Simple table" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[1x1 table]]></description>
+            <content><![CDATA[
+<Table>
+	<Tr>
+		<td>My Table</Td>
+	</Tr>
+</Table> ]]></content>
+        </item>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091505226010" label="Simple Table List" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Two column table with bullitized lists (2x3)]]></description>
+            <content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tr bgcolor="#000066"> 
+    <td colspan="2" ><strong><font color="#FFFFFF">Title</font></strong></td>
+  </tr>
+  <tr bgcolor="#C8D2DF"> 
+    <td width="50%" ><ul>
+        <li><a href="#">List 1</a></li>
+      </ul></td>
+    <td width="50%" ><ul>
+        <li><a href="#">List 4</a></li>
+      </ul></td>
+  </tr>
+  <tr bgcolor="#C8D2DF"> 
+    <td ><ul>
+        <li><a href="#">List 2</a></li>
+      </ul></td>
+    <td ><ul>
+        <li><a href="#">List 5</a></li>
+      </ul></td>
+  </tr>
+  <tr bgcolor="#C8D2DF"> 
+    <td ><ul>
+        <li><a href="#">List 3</a></li>
+      </ul></td>
+    <td ><ul>
+        <li><a href="#">List 6</a></li>
+      </ul></td>
+  </tr>
+</table>]]></content>
+        </item>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091576308470" label="Page Header" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Simple page header with logo on the left and links on the right]]></description>
+            <content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="4">
+  <tbody><tr>
+      <td width="52%" bgcolor="#FFFFCC" ><a href="#"><img src="" name="Logo" alt="logo name" width="150" height="70" border="0" style="background-color: #CC9966;"></a></td>
+      <td width="48%" bgcolor="#FFFFCC" style="text-align: right;"><a href="#"> About US </a> 
+        &#149; <a href="#">Contact</a> &#149; <a href="#">Site Map</a>&nbsp;<br>
+       <table width="100%" border="0" cellspacing="0" cellpadding="4">
+          <thead>
+            <tr>
+              <td width="74%" align="right"><a href="#">Link1</a></td>
+              <td width="0%"><strong>|</strong></td>
+              <td width="7%"><a href="#">Link2</a></td>
+              <td width="2%"><strong>|</strong></td>
+              <td width="7%"><a href="#">Link3</a></td>
+              <td width="2%"><strong>|</strong></td>
+              <td width="8%" align="right">Link4</td>
+            </tr>
+          </thead>
+        </table>
+      </td>
+  </tr></tbody>
+</table>]]></content>
+        </item>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091553095412" label="Dynamic Page Header" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Insert a quick heading with quick-jump navigation menu and a day/date javascript that you can customize with your own time-of-day greeting and special day message.  Just insert the Snippet, customize, and preview in your browser. Instructions are provided as Comments in the code.]]></description>
+            <content><![CDATA[
+<table width="760" cellpadding="3" cellspacing="0" align="center" border="0" bordercolor="#302C38">
+	<tbody>
+		<tr bgcolor="#302C38"><td align="left">
+			<font face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF" size="2">
+			<b>
+			<script language="javascript" type="text/javascript">
+			<!--
+				day = new Date()
+				hr = day.getHours()
+				if  ((hr == 23) || (hr == 0) || (hr == 1) || (hr == 2) || (hr == 3) || (hr == 4) || (hr == 5) || (hr == 6))
+					document.write("Good Night!&nbsp;this is&nbsp;")
+				if ((hr == 7) || (hr == 8) || (hr == 9) || (hr == 10) || (hr == 11))
+					document.write("Good Morning!&nbsp;this is&nbsp;")
+				if ((hr == 12) || (hr == 13) || (hr == 14) || (hr == 15) || (hr == 16))
+					document.write("Good Afternoon!&nbsp;this is&nbsp;")
+				if ((hr == 17) || (hr == 18) || (hr == 19) || (hr == 20) || (hr == 21) || (hr == 22))
+					document.write("Good Evening!&nbsp;this is&nbsp;")
+				var months=new Array(13);
+				months[1]="January";
+				months[2]="February";
+				months[3]="March";
+				months[4]="April";
+				months[5]="May";
+				months[6]="June";
+				months[7]="July";
+				months[8]="August";
+				months[9]="September";
+				months[10]="October";
+				months[11]="November";
+				months[12]="December";
+				var days=new Array(8);
+				days[1]="Sunday";
+				days[2]="Monday";
+				days[3]="Tuesday";
+				days[4]="Wednesday";
+				days[5]="Thursday";
+				days[6]="Friday";
+				days[7]="Saturday";
+				var time=new Date();
+				var month2=months[time.getMonth() + 1];
+				var date=time.getDate();
+				var year=time.getYear();
+				var day2=days[time.getDay() + 1];
+				if (navigator.appName == "Netscape")
+					year=1900 + year;
+				if (navigator.userAgent.indexOf("Opera") >= 0)
+					year = 1900 + year;
+			// You can make your own special days by just keeping to the same format below
+			if ((date == 24) && (month2 == "December"))
+				day2="Christmas eve";
+			if ((date == 25) && (month2 == "December"))
+				day2="Christmas day";
+			if ((date == 31) && (month2 == "December"))
+				day2="New years eve";
+			if ((date == 14) && (month2 == "February"))
+				day2="Valentine's day";
+			document.write(day2 + ", " + month2 + " ");
+			document.write(date + ", " + year);
+			if ((date == 18) && (month2 == "May"))
+				document.write("&nbsp;&nbsp;Today, is John's Birthday");
+			if ((date == 29) && (month2 == "February"))
+				document.write("&nbsp;&nbsp;Leap-year");
+			// -->
+			</script></b></font>
+			</td>
+			<form>
+			<!-- keep the form tag outside of the table data cell or it will make it larger -->
+			<td align="right" valign="middle">
+			<!-- If you want color in the navbar, you can add this style="background-color: #302C38; color: #81b2da; font-weight: bold; font-size: 10pt" But this will cause some problems in Netscape 4.7... Netscape 6 and Opera 6 will have no problems with this -->
+			<select name="quicknav" size="1" onChange='top.location.href=this.form.quicknav.options[this.form.quicknav.selectedIndex].value'>
+				<option selected>Quick Jump</option>
+				<!-- follow the examples below to modify or add links to the QuickJump -->
+				<option value="http://www.genuitec.com">Genuitec LLC</option>
+				<option value="http://www.myeclipseide.com">MyEclipse</option>
+			</select>
+			</td>
+			<!-- keep the FORM tag outside of the table data cell or it will make it larger -->
+			</form>
+		</tr></tbody>
+</table>]]></content>
+        </item>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091576884359" label="Footer - Page numbers" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Provide page number navigation]]></description>
+            <content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="4"><tbody><tr>
+      <td width="20%" style="text-align: center"><a href="#">Last</a></td>
+      <td width="80%" style="text-align: center"><a href="#">1</a> <a href="#">2</a> <a href="#">3</a> 
+      4 <a href="#">5</a> <a href="#">6</a> <a href="#">7</a> <a href="#">8</a> <a href="#">9</a> <a href="#">10</a></td>
+      <td width="20%" style="text-align: center"><a href="#">Next</a></td>
+    </tr></tbody>
+</table>]]></content>
+        </item>
+        <item category="category_1091488184410" class="" editorclass="" id="item_1091577113859" label="Footer- navigation and Copyright" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Footer with a list of links and copyright statement]]></description>
+            <content><![CDATA[
+<table width="100%" border="0" cellspacing="0" cellpadding="2" bgcolor="#FFFFCC">
+  <tr> 
+    <td align="center"> 
+      <p><a href="#"><font size="2" face="Arial, Helvetica,
+sans-serif">About</font></a><font size="2" face="Arial, Helvetica, sans-serif"> 
+        | <a href="#">Services</a> | <a href="#">Products</a> | <a href="#">What 
+        is New</a> | <a href="#">Contact Us</a></font></p>
+      <p><font size="-1">Copyright (c) 2007 MySite -
+http://www.mysite.com</font></p>
+    </td>
+  </tr>
+</table>]]></content>
+        </item>
+    </category>
+    <category filters="*" id="category_1091553386741" initial_state="0" label="JavaScript" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091577471773" label="Add to favorite" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Auto add designated page to favorite - To use Change site and title]]></description>
+            <content><![CDATA[
+
+<a href="javascript:window.external.AddFavorite('http://www.myeclipseide.com', 'J2EE IDE homepage')">Add to Favorites</a> ]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091577695445" label="Back to previous page" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Similar to cancel and backpage button]]></description>
+            <content><![CDATA[
+<form>
+<input type="button" value="Back to Previous Page" 
+onClick="javascript: history.go(-1)">
+</form>]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091577996708" label="Go Forward" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Send the user foward one page]]></description>
+            <content><![CDATA[
+
+<a href="javascript:history.go(+1)">Go Foward</a>]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091553405458" label="Select All Checkboxes" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Select a group of checkboxes with one click (you can have multiple groups on the same page)]]></description>
+            <content><![CDATA[
+<!--  Add to header -->
+
+<script language="JavaScript">
+
+<!--
+function SetChecked(boxname) {
+	f=document.form1;
+// change form1 if you change your form name.
+	for( i=0 ; i<f.elements.length ; i++) {
+		if (f.elements[i].name==boxname) {
+		f.elements[i].checked=true;
+		}
+	}
+}
+
+//-->
+
+</script>
+
+
+<!--  Add to Boddy -->
+
+<a href="javascript:;" onclick="SetChecked('checkbox_name');return false;">Select All</a>
+<!--replace checkbox_name with the name of checkbox you want to select -->]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091577816699" label="Day of Week Redirect" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Direct the user to a different page for each day of the week. For example if today is Tuesday, the user will be redirected to Tuesday.html]]></description>
+            <content><![CDATA[
+<script language="javascript">
+<!--
+function initArray() {
+this.length = initArray.arguments.length;
+for (var i = 0; i < this.length; i++)
+this[i+1] = initArray.arguments[i];
+}
+
+var DOWArray = new
+initArray("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+var today = new Date();
+var day = DOWArray[today.getDay()+1];
+window.location = day + ".html";
+// -->
+
+</script>]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091577913679" label="Delay Go To URL" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Dynamically change the URL and wait time for any links]]></description>
+            <content><![CDATA[
+<script language="JavaScript1.2" type="text/javascript">
+<!--
+//  Place this in the 'head' section of your page.  
+
+function delayURL(url, time) {
+    setTimeout("top.location.href='" + url + "'", time);
+}
+
+//-->
+
+</script>
+
+<!-- Place this in the 'body' section -->
+<a href="javascript:" onClick="delayURL('myPage.htm','2000')">My Delayed Link</a>]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578100868" label="Simple Redirect" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Redirect the browser to a given URL]]></description>
+            <content><![CDATA[
+
+function redirect(URLStr) { location = URLStr; }]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578193391" label="Read Cookie" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Function that returns the value of a cookie given the cookie name.]]></description>
+            <content><![CDATA[
+// Example:
+// alert( readCookie("myCookie") );
+
+function readCookie(name)
+{
+  var cookieValue = "";
+  var search = name + "=";
+  if(document.cookie.length > 0)
+  { 
+    offset = document.cookie.indexOf(search);
+    if (offset != -1)
+    { 
+      offset += search.length;
+      end = document.cookie.indexOf(";", offset);
+      if (end == -1) end = document.cookie.length;
+      cookieValue = unescape(document.cookie.substring(offset, end))
+    }
+  }
+  return cookieValue;
+}]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578251755" label="Write Cookie" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A simple function to write a value to a cookie.]]></description>
+            <content><![CDATA[// writeCookie("myCookie", "my name", 24);
+// Stores the string "my name" in the cookie "myCookie" which expires after 24 hours.
+// The hours parameter is optional; if hours is left out, the cookie value expires at the end of the visitor's browser session.
+function writeCookie(name, value, hours)
+{
+  var expire = "";
+  if(hours != null)
+  {
+    expire = new Date((new Date()).getTime() + hours * 3600000);
+    expire = "; expires=" + expire.toGMTString();
+  }
+  document.cookie = name + "=" + escape(value) + expire;
+}]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578357917" label="Current Date" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[display the current date in short format]]></description>
+            <content><![CDATA[<script>
+<!--
+var today_date= new Date()
+var month=today_date.getMonth()+1
+var today=today_date.getDate()
+var year=today_date.getYear()
+//document.write("Today's date is: ")
+document.write(month+"/"+today+"/"+year)
+//--> </script>]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578394570" label="GMT Live Date/Time" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Display a live date/time with changing seconds]]></description>
+            <content><![CDATA[<script>
+// Insert before Body tag
+<!--
+
+function showGMTDateTime(){ // script by Peter Hawkes peterhawkes@btopenworld.com
+if(document.getElementById){
+if(document.getElementById) var obj = document.getElementById("showdate");
+if(document.all) var obj = document.all("showdate");
+	var thedate = new Date();
+obj.innerHTML = thedate.toGMTString().substring((thedate.toGMTString().length-4),0);
+setTimeout('showGMTDateTime()',1000);}}
+
+//-->
+</script>
+<style>
+#showdate {
+	font-family:Verdana, Helvetica, Arial, sans-serif;
+	color:#000000;
+	font-size:12px;
+	}
+</style>
+
+//Insert in body Tag
+<body onload="showGMTDateTime()">
+<p id="showdate"></p>]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578674413" label="Message Window" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Displays a new browser window containing the given message and title]]></description>
+            <content><![CDATA[function messageWindow(title, msg)
+{
+  var width="300", height="125";
+  var left = (screen.width/2) - width/2;
+  var top = (screen.height/2) - height/2;
+  var styleStr = 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+',top='+top+',screenX='+left+',screenY='+top;
+  var msgWindow = window.open("","msgWindow", styleStr);
+  var head = '<head><title>'+title+'</title></head>';
+  var body = '<center>'+msg+'<br><p><form><input type="button" value="   Done   " onClick="self.close()"></form>';
+  msgWindow.document.write(head + body);
+}]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578749701" label="Pop-Up Window" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Opens a new browser window, given a URL and the left, top, width, and height of the window]]></description>
+            <content><![CDATA[var popUpWin=0;
+
+function popUpWindow(URLStr, left, top, width, height)
+
+{
+
+  if(popUpWin)
+
+  {
+
+    if(!popUpWin.closed) popUpWin.close();
+
+  }
+
+  popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menub ar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');
+
+}
+
+]]></content>
+        </item>
+        <item category="category_1091553386741" class="" editorclass="" id="item_1091578882552" label="Close Window" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[A form button that closes the current window]]></description>
+            <content><![CDATA[<input type=button value="Close Window" onClick="javascript:self.close();" onKeyPress="javascript:self.close();">]]></content>
+        </item>
+    </category>
+    <category filters="*" id="category_1092665028614" initial_state="0" label="JSF-F" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665040511" label="&lt;f:actionListener ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:actionListener type="${type}" />]]></content>
+            <variable default="" id="name_1" name="type">
+                <description><![CDATA[Fully qualified Java class name of an ActionListener to be created and registered.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665072617" label="&lt;f:convertDateTime ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:convertDateTime type="${type}" />]]></content>
+            <variable default="" id="name_1" name="type">
+                <description><![CDATA[Specifies what contents the string value will be formatted to include, or parsed expecting. Valid values are "date", "time", and "both". Default value is "date".]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665105094" label="&lt;f:convertNumber ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:convertNumber type="${type}" />]]></content>
+            <variable default="" id="name_1" name="type">
+                <description><![CDATA[Specifies how the number string will be formatted and parsed. Valid values are "number", "currency", and "percentage". Default value is "number".]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665144040" label="&lt;f:facet ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:facet name="${name}"></f:facet>]]></content>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[Name of the facet to be created.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665209134" label="&lt;f:selectItems ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:selectItems value="${value}" />]]></content>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[Value binding expression pointing at a List or array of SelectItem instances containing the information for these options.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665249532" label="&lt;f:validateDoubleRange ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:validateDoubleRange minimum="${min}" maximum="${max}" />]]></content>
+            <variable default="" id="name_2" name="max">
+                <description><![CDATA[Maximum value allowed for this component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="min">
+                <description><![CDATA[Minimum value allowed for this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665302167" label="&lt;f:validateLength ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:validateLength minimum="${min}" maximum="${max}" />]]></content>
+            <variable default="" id="name_2" name="max">
+                <description><![CDATA[Maximum value allowed for this component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="min">
+                <description><![CDATA[Minimum value allowed for this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665357096" label="&lt;f:validateLongRange ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:validateLongRange minimum="${min}" maximum="${max}" />]]></content>
+            <variable default="" id="name_2" name="min">
+                <description><![CDATA[Minimum value allowed for this component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="max">
+                <description><![CDATA[Maximum value allowed for this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665401270" label="&lt;f:valueChangeListener ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:valueChangeListener type="${type}" />]]></content>
+            <variable default="" id="name_1" name="type">
+                <description><![CDATA[Fully qualified Java class name of a ValueChangeListener to be created and registered.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092665028614" class="" editorclass="" id="item_1092665434778" label="&lt;f:verbatim&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<f:verbatim></f:verbatim>]]></content>
+        </item>
+    </category>
+    <category filters="*" id="category_1092663716107" initial_state="0" label="JSF-H" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092663736316" label="&lt;h:commandButton ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:commandButton id="${id}" action="${action}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="action">
+                <description><![CDATA[MethodBinding representing the application action to invoke when this component is activated by the user. The expression must evaluate to a public method that takes no parameters, and returns a String (the logical outcome) which is passed to the NavigationHandler for this application.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="id">
+                <description/>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092663800438" label="&lt;h:commandLink ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:commandLink id="${id}" action="${action}"></h:commandLink>]]></content>
+            <variable default="" id="name_2" name="action">
+                <description><![CDATA[MethodBinding representing the application action to invoke when this component is activated by the user. The expression must evaluate to a public method that takes no parameters, and returns a String (the logical outcome) which is passed to the NavigationHandler for this application.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092663856519" label="&lt;h:dataTable ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:dataTable id="${id}" value="${value}" var="${var}">
+</h:dataTable>]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="var">
+                <description><![CDATA[Name of a request-scope attribute under which the model data for the row selected by the current value of the "rowIndex" property (i.e. also the current value of the "rowData" property) will be exposed.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092663926900" label="&lt;h:form&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:form></h:form>]]></content>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092663945627" label="&lt;h:graphicImage ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:graphicImage id="${id}" alt="${alt}" url="${url}" />]]></content>
+            <variable default="" id="name_4" name="url">
+                <description><![CDATA[Context-relative URL to retrieve the resource associated with this component. This is an alias for the "value" property.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="alt">
+                <description><![CDATA[Alternate textual description of the element rendered by this component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664019403" label="&lt;h:inputHidden ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:inputHidden id="${id}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664057658" label="&lt;h:inputSecret ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:inputSecret id="${id}" value="${value}" redisplay="${redisplay}" />]]></content>
+            <variable default="" id="name_4" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="required">
+                <description><![CDATA[Flag indicating that the user is required to provide a submitted value for this input component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="redisplay">
+                <description><![CDATA[Flag indicating that any existing value in this field should be rendered when the form is created. Because this is a potential security risk, password values are not displayed by default.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664128209" label="&lt;h:inputText ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:inputText id="${id}" size="${size}" value="${value}" required="${required}" />]]></content>
+            <variable default="" id="name_4" name="required">
+                <description><![CDATA[Flag indicating that the user is required to provide a submitted value for this input component.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="size">
+                <description><![CDATA[The number of characters used to determine the width of this field.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664128210" label="&lt;h:outputText ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:outputText value="${value}" />]]></content>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664216647" label="&lt;h:inputTextarea ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:inputTextarea id="${id}" rows="${rows}" cols="${cols}" value="${value}" required="${required}" />]]></content>
+            <variable default="" id="name_4" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="rows">
+                <description><![CDATA[The number of rows to be displayed.]]></description>
+            </variable>
+            <variable default="" id="name_5" name="required">
+                <description><![CDATA[Flag indicating that the user is required to provide a submitted value for this input component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="cols">
+                <description><![CDATA[The number of columns to be displayed.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664338211" label="&lt;h:message ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:message id="${id}" for="${for}" />]]></content>
+            <variable default="" id="name_2" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="for">
+                <description><![CDATA[Client identifier of the component for which to display messages.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664381664" label="&lt;h:outputFormat ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:outputFormat value="${value}"></h:outputFormat>]]></content>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664413780" label="&lt;h:outputLabel ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:outputLabel for="${for}" rendered="${rendered}" binding="${binding}" value="${value}" />]]></content>
+            <variable default="" id="name_4" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="rendered">
+                <description><![CDATA[Flag indicating whether or not this component should be rendered (during Render Response Phase), or processed on any subsequent form submit.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="for">
+                <description><![CDATA[Client identifier of the component for which this element is a label.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="binding">
+                <description><![CDATA[The value binding expression linking this component to a property in a backing bean.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664524179" label="&lt;h:outputLink ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:outputLink value="${value}"></h:outputLink>]]></content>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664554462" label="&lt;h:panelGrid ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:panelGrid columns="${columns}"></h:panelGrid>]]></content>
+            <variable default="" id="name_1" name="columns">
+                <description><![CDATA[The number of columns to render before starting a new row.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664619976" label="&lt;h:selectBooleanCheckbox ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Unnamed Template]]></description>
+            <content><![CDATA[<h:selectBooleanCheckbox id="${id}" rendered="${rendered}" binding="${binding}" />]]></content>
+            <variable default="" id="name_2" name="rendered">
+                <description><![CDATA[Flag indicating whether or not this component should be rendered (during Render Response Phase), or processed on any subsequent form submit.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="binding">
+                <description><![CDATA[The value binding expression linking this component to a property in a backing bean.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664667615" label="&lt;h:selectManyCheckbox ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:selectManyCheckbox id="${id}" layout="${layout}" value="${value}"></h:selectManyCheckbox>]]></content>
+            <variable default="" id="name_2" name="layout">
+                <description><![CDATA[Orientation of the options list to be created. Valid values are "pageDirection" (list is laid out vertically), or "lineDirection" (list is laid out horizontally). If not specified, the default value is "lineDirection".]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664720691" label="&lt;h:selectManyListbox ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:selectManyListbox id="${id}" value="${value}"></h:selectManyListbox>]]></content>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664773477" label="&lt;h:selectManyMenu ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:selectManyMenu id="${id}" value="${value}">
+</h:selectManyMenu>]]></content>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664832853" label="&lt;h:selectOneListbox ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:selectOneListbox id="${id}" required="${required}" value="${value}"></h:selectOneListbox>]]></content>
+            <variable default="" id="name_2" name="required">
+                <description><![CDATA[Flag indicating that the user is required to provide a submitted value for this input component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664895483" label="&lt;h:selectOneMenu ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:selectOneMenu id="${id}" required="${required}" value="${value}"></h:selectOneMenu>]]></content>
+            <variable default="" id="name_2" name="required">
+                <description><![CDATA[Flag indicating that the user is required to provide a submitted value for this input component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664947978" label="&lt;h:selectOneRadio ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:selectOneRadio id="${id}" required="${required}" layout="${layout}" value="${value}"></h:selectOneRadio>]]></content>
+            <variable default="" id="name_2" name="required">
+                <description><![CDATA[Flag indicating that the user is required to provide a submitted value for this input component.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The component identifier for this component. This value must be unique within the closest parent component that is a naming container.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The current value of this component.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="layout">
+                <description><![CDATA[Orientation of the options list to be created. Valid values are "pageDirection" (list is laid out vertically), or "lineDirection" (list is laid out horizontally). If not specified, the default value is "lineDirection".]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663716107" class="" editorclass="" id="item_1092664994315" label="&lt;h:column&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<h:column></h:column>]]></content>
+        </item>
+    </category>
+    <category filters="*" id="category_1092630693375a" initial_state="0" label="Struts-Bean" largeicon="" smallicon="">
+        <description><![CDATA[Struts tag library snippets]]></description>
+        <item category="category_1092630693375a" class="" editorclass="" id="item_1092631426830" label="&lt;bean:write ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<bean:write name="${name}" />]]></content>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[Specifies the attribute name of the bean whose property is accessed to retrieve the value specified by property (if specified). If property is not specified, the value of this bean itself will be rendered.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375a" class="" editorclass="" id="item_1092631314919" label="&lt;bean:parameter ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<bean:parameter id="${id}" />]]></content>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[Specifies the name of the scripting variable (and associated page scope attribute) that will be made available with the value of the specified request parameter.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375a" class="" editorclass="" id="item_1092631178342" label="&lt;bean:message ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<bean:message key="${key}" />]]></content>
+            <variable default="" id="name_1" name="key">
+                <description><![CDATA[The message key of the requested message, which must have a corresponding value in the message resources. If not specified, the key is obtained from the name and property attributes.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375a" class="" editorclass="" id="item_1092630877440" label="&lt;bean:define ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<bean:define id="${id}" />]]></content>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[Specifies the name of the scripting variable (and associated page scope attribute) that will be made available with the value of the specified property.]]></description>
+            </variable>
+        </item>
+    </category>
+    <category filters="*" id="category_1092630693375" initial_state="0" label="Struts-HTML" largeicon="" smallicon="">
+        <description><![CDATA[Struts tag library snippets]]></description>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092631711449" label="&lt;html:base /&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:base />]]></content>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092631779307" label="&lt;html:cancel /&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:cancel />]]></content>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092631810852" label="&lt;html:checkbox ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:checkbox name="${name}" property="${property}" />]]></content>
+            <variable default="" id="name_2" name="property">
+                <description/>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092631927490" label="&lt;html:errors ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:errors property="${property}" />]]></content>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[Name of the property for which error messages should be displayed. If not specified, all error messages (regardless of property) are displayed.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092661474834" label="&lt;html:file ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:file name="${name}" property="${name}" />]]></content>
+            <variable default="" id="name_2" name="property">
+                <description><![CDATA[Name of the request parameter that will be included with this submission, set to the specified value.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092661584622" label="&lt;html:form ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:form action="${action}" method="${method}">
+</html:form>]]></content>
+            <variable default="" id="name_2" name="method">
+                <description><![CDATA[The HTTP method that will be used to submit this request (GET, POST).]]></description>
+            </variable>
+            <variable default="" id="name_1" name="action">
+                <description><![CDATA[The URL to which this form will be submitted. This value is also used to select the ActionMapping we are assumed to be processing, from which we can identify the appropriate form bean and scope.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092661643777" label="&lt;html:hidden ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:hidden name="${name}" property="${property}" />]]></content>
+            <variable default="" id="name_2" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[Name of this input field, and the name of the corresponding bean property if value is not specified. The corresponding bean property (if any) must be of type String.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092661715450" label="&lt;html:html&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:html>
+</html:html>]]></content>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092661757460" label="&lt;html:image ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:image page="${page}" property="${property}" />]]></content>
+            <variable default="" id="name_2" name="page">
+                <description><![CDATA[The module-relative path of the image for this input tag.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[The property name of this image tag. The parameter names for the request will appear as "property.x" and "property.y", the x and y representing the coordinates of the mouse click for the image. A way of retrieving these values through a form bean is to define getX(), getY(), setX(), and setY() methods, and specify your property as a blank string (property="").]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092661822754" label="&lt;html:img ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:img align="${align}" alt="${alt}" border="${border}" page="${page}" />]]></content>
+            <variable default="" id="name_4" name="alt">
+                <description><![CDATA[Alternative text to be displayed in browsers that don't support graphics. Also used often as type of context help over images.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="border">
+                <description><![CDATA[The width of the border surrounding the image.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="page">
+                <description><![CDATA[The module-relative path, starting with a slash, of the image to be displayed by this tag. The rendered URL for this image will automatically prepend the context path of this web application (in the same manner as the page attribute on the link tag works), in addition to any necessary URL rewriting. You must specify either the page  attribute or the src attribute.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="align">
+                <description><![CDATA[Where the image is aligned to (left, right, top, middle, bottom, texttop, absmiddle, absbottom).]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092661966301" label="&lt;html:link ..&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:link action="${action}"></html:link>]]></content>
+            <variable default="" id="name_1" name="action">
+                <description><![CDATA[Logical name of a Action that contains the actual content-relative URI of the destination of this transfer. This hyperlink may be dynamically modified by the inclusion of query parameters, as described in the tag description. You must specify exactly one of the action attribute, the forward attribute, the href attribute, the linkName  attribute, or the page attribute.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662005898" label="&lt;html:messages ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:messages property="${property}" message="${message}" />]]></content>
+            <variable default="" id="name_2" name="message">
+                <description><![CDATA[By default the tag will retrieve the bean it will iterate over from the Globals.ERROR_KEY constant string, but if this attribute is set to 'true' the bean will be retrieved from the Globals.MESSAGE_KEY  constant string. Also if this is set to 'true', any value assigned to the name attribute will be ignored.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[Name of the property for which messages should be displayed. If not specified, all messages (regardless of property) are displayed.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662095306" label="&lt;html:multibox ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:multibox name="${name}" property="${property}">
+</html:multibox>]]></content>
+            <variable default="" id="name_2" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[Name of the request parameter that will be included with this submission, set to the specified value.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662180379" label="&lt;html:option ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:option value="${value}"></html:option>]]></content>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[Value to be submitted for this field if this option is selected by the user.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662223180" label="&lt;html:optionsCollection ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:optionsCollection name="${name}" label="${label}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="label">
+                <description><![CDATA[The property of the bean within the collection which represents the label to be rendered for each option. Defaults to "label".]]></description>
+            </variable>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[The property of the bean within the collection which represents the value to be rendered for each option. Defaults to "value".]]></description>
+            </variable>
+            <variable default="" id="name_3" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662317085" label="&lt;html:password ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:password property="${property}" />]]></content>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[Name of the request parameter that will be included with this submission, set to the specified value.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662352726" label="&lt;html:radio ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:radio name="${name}" property="${property}" />]]></content>
+            <variable default="" id="name_2" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[The corresponding bean property for this radio tag.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662426633" label="&lt;html:reset /&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:reset />]]></content>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662448174" label="&lt;html:select ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:select name="${name}" property="${property}" />]]></content>
+            <variable default="" id="name_2" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted to determine which option should be pre-selected when rendering this input field. If not specified, the bean associated with the enclosing <html:form> tag is utilized.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="property">
+                <description><![CDATA[Name of the request parameter that will be included with this submission, set to the specified value.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662507339" label="&lt;html:submit /&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:submit />]]></content>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662545093" label="&lt;html:text ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:text name="${name}" property="${property}" size="${size}" />]]></content>
+            <variable default="" id="name_2" name="property">
+                <description><![CDATA[Name of this input field, and the name of the corresponding bean property if value is not specified. The corresponding bean property (if any) must be of type String.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="size">
+                <description><![CDATA[Number of character positions to allocate.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092630693375" class="" editorclass="" id="item_1092662616315" label="&lt;html:textarea.../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<html:textarea name="${name}" property="${property}" rows="${rows}" cols="${cols}" />]]></content>
+            <variable default="" id="name_4" name="cols">
+                <description><![CDATA[The number of columns to display.]]></description>
+            </variable>
+            <variable default="" id="name_2" name="property">
+                <description><![CDATA[Name of this input field, and the name of the corresponding bean property if value is not specified. The corresponding bean property (if any) must be of type String.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The attribute name of the bean whose properties are consulted when rendering the current value of this input field. If not specified, the bean associated with the form tag we are nested within is utilized.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="rows">
+                <description><![CDATA[The number of rows to display.]]></description>
+            </variable>
+        </item>
+    </category>
+    <category filters="*" id="category_1092662767793" initial_state="0" label="Struts-Logic" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092662785098" label="&lt;logic:iterate ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:iterate id="${id}" name="${name}" type="${type}" />]]></content>
+            <variable default="" id="name_2" name="type">
+                <description><![CDATA[Fully qualified Java class name of the element to be exposed through the JSP bean named from the id attribute. If not present, no type conversions will be performed. NOTE: The actual elements of the collection must be assignment-compatible with this class, or a request time ClassCastException will occur.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="id">
+                <description><![CDATA[The name of a page scope JSP bean that will contain the current element of the collection on each iteration, if it is not null.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="name">
+                <description><![CDATA[The name of the JSP bean containing the collection to be iterated (if property is not specified), or the JSP bean whose property getter returns the collection to be iterated (if property is specified).]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092662845535" label="&lt;logic:redirect ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description><![CDATA[Unnamed Template]]></description>
+            <content><![CDATA[<logic:redirect forward="${forward}" />]]></content>
+            <variable default="" id="name_1" name="forward">
+                <description><![CDATA[Logical name of a global ActionForward that contains the actual content-relative URI of the destination of this redirect. This URI may be dynamically modified by the inclusion of query parameters, as described in the tag description. You must specify exactly one of the forward attribute, the href attribute, the linkName  attribute, or the page attribute.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092662885823" label="&lt;logic:empty ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:empty name="${name}" />]]></content>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092662934913" label="&lt;logic:notEmpty ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:notEmpty name="${name}" />]]></content>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092662967150" label="&lt;logic:present /&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:present />]]></content>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092662995350" label="&lt;logic:notPresent /&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:notPresent />]]></content>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092663012826" label="&lt;logic:equal ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:equal name="${name}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="value">
+                <description><![CDATA[The constant value to which the variable, specified by other attribute(s) of this tag, will be compared.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092663117476" label="&lt;logic:notEqual ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:notEqual name="${name}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The constant value to which the variable, specified by other attribute(s) of this tag, will be compared.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092663161179" label="&lt;logic:lessEqual ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:lessEqual name="${name}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The constant value to which the variable, specified by other attribute(s) of this tag, will be compared.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092663212202" label="&lt;logic:lessThan ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:lessThan name="${name}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The constant value to which the variable, specified by other attribute(s) of this tag, will be compared.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092663270947" label="&lt;logic:greaterEqual ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:greaterEqual name="${name}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The constant value to which the variable, specified by other attribute(s) of this tag, will be compared.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092662767793" class="" editorclass="" id="item_1092663325555" label="&lt;logic:greaterThan ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<logic:greaterThan name="${name}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[The constant value to which the variable, specified by other attribute(s) of this tag, will be compared.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The variable to be compared is the JSP bean specified by this attribute, if property is not specified, or the value of the specified property of this bean, if property  is specified.]]></description>
+            </variable>
+        </item>
+    </category>
+    <category filters="*" id="category_1092663415094" initial_state="0" label="Struts-Tiles" largeicon="" smallicon="">
+        <description/>
+        <item category="category_1092663415094" class="" editorclass="" id="item_1092663435433" label="&lt;tiles:insert ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<tiles:insert name="${name}" />]]></content>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[Name of an entity to insert. Search is done in this order : definition, attribute, [tile/component/template/page].]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663415094" class="" editorclass="" id="item_1092663471014" label="&lt;tiles:put ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<tiles:put name="${name}" value="${value}" />]]></content>
+            <variable default="" id="name_2" name="value">
+                <description><![CDATA[Attribute value. Could be a String or an Object. Value can come from a direct assignment (value="aValue") or from a bean. One of 'value' 'content' or 'beanName' must be present.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[Name of the attribute.]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663415094" class="" editorclass="" id="item_1092663507907" label="&lt;tiles:get ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<tiles:get name="${name}" />]]></content>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The name of the content to get from tile/component scope]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663415094" class="" editorclass="" id="item_1092663556437" label="&lt;tiles:getAsString ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<tiles:getAsString name="${name}" />]]></content>
+            <variable default="" id="name_1" name="name">
+                <description><![CDATA[The name of the content to get from tile/component scope]]></description>
+            </variable>
+        </item>
+        <item category="category_1092663415094" class="" editorclass="" id="item_1092663604376" label="&lt;tiles:useAttribute ../&gt; tag" largeicon="" smallicon="" snippetProvider="org.eclipse.wst.common.snippets.ui.TextSnippetProvider">
+            <description/>
+            <content><![CDATA[<tiles:useAttribute id="${id}" name="${id}" classname="${classname}" />]]></content>
+            <variable default="" id="name_2" name="id">
+                <description><![CDATA[Declared attribute and variable name.]]></description>
+            </variable>
+            <variable default="" id="name_1" name="classname">
+                <description><![CDATA[Class of the declared variable.]]></description>
+            </variable>
+            <variable default="" id="name_3" name="name">
+                <description><![CDATA[Tile's attribute name.]]></description>
+            </variable>
+        </item>
+    </category>
+</snippets>

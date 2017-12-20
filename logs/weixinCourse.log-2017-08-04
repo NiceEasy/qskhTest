@@ -1,0 +1,49 @@
+[ERROR] 2017-08-04 08:37:13,551 org.liufeng.course.util.CommonUtil 获取token失败 errcode:40164 errmsg:invalid ip 61.148.68.134, not in whitelist hint: [Tkaooa0064e575]
+[ERROR] 2017-08-04 08:44:22,006 org.liufeng.course.util.CommonUtil 获取token失败 errcode:40164 errmsg:invalid ip 61.148.68.134, not in whitelist hint: [HK25jA0493e606]
+[ERROR] 2017-08-04 09:24:20,551 org.liufeng.course.util.CommonUtil 获取token失败 errcode:40164 errmsg:invalid ip 61.148.68.134, not in whitelist hint: [d1fKRa0892nfo1]
+[ERROR] 2017-08-04 09:28:52,378 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.net.UnknownHostException: api.weixin.qq.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:625)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:275)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:371)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1301)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:72)
+	at org.liufeng.course.util.CommonUtil.getToken(CommonUtil.java:107)
+	at org.liufeng.weixin.main.MenuManagerHTS.main(MenuManagerHTS.java:108)
+[ERROR] 2017-08-04 09:29:10,734 org.liufeng.course.util.CommonUtil https请求异常：{}
+java.net.UnknownHostException: api.weixin.qq.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:178)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:625)
+	at sun.security.ssl.BaseSSLSocketImpl.connect(BaseSSLSocketImpl.java:160)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:275)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:371)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:933)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1301)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at org.liufeng.course.util.CommonUtil.httpsRequest(CommonUtil.java:72)
+	at org.liufeng.course.util.CommonUtil.getToken(CommonUtil.java:107)
+	at org.liufeng.weixin.main.MenuManagerHTS.main(MenuManagerHTS.java:108)
+[ERROR] 2017-08-04 09:31:26,309 org.liufeng.course.util.CommonUtil 获取token失败 errcode:40164 errmsg:invalid ip 61.148.68.134, not in whitelist hint: [XEoPmA0317e575]
+[ERROR] 2017-08-04 09:41:59,550 org.liufeng.course.util.CommonUtil 获取token失败 errcode:40164 errmsg:invalid ip 111.207.246.44, not in whitelist hint: [tEIP90951nfo1]
+[ERROR] 2017-08-04 10:50:37,650 org.liufeng.course.util.CommonUtil 获取token失败 errcode:40164 errmsg:invalid ip 61.148.68.134, not in whitelist hint: [ZOAWha0069nfo1]
+[INFO ] 2017-08-04 11:27:10,706 org.liufeng.weixin.main.MenuManagerHTS 菜单创建成功！

@@ -1,0 +1,11 @@
+[INFO ] 2016-11-04 01:24:28,517 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[INFO ] 2016-11-04 01:28:43,114 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[INFO ] 2016-11-04 01:43:32,734 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[ERROR] 2016-11-04 01:46:24,968 org.liufeng.course.util.MenuUtil 创建菜单失败 errcode:40019 errmsg:invalid button key size hint: [TbuaIA0192vr20]
+[INFO ] 2016-11-04 01:46:24,968 org.liufeng.weixin.main.MenuManager 菜单创建失败！
+[ERROR] 2016-11-04 01:47:51,931 org.liufeng.course.util.MenuUtil 创建菜单失败 errcode:40055 errmsg:invalid button url domain hint: [3NKzAA0279vr20]
+[INFO ] 2016-11-04 01:47:51,933 org.liufeng.weixin.main.MenuManager 菜单创建失败！
+[INFO ] 2016-11-04 01:56:35,299 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[INFO ] 2016-11-04 02:09:05,946 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[INFO ] 2016-11-04 02:29:28,487 org.liufeng.weixin.main.MenuManager 菜单创建成功！
+[INFO ] 2016-11-04 03:28:45,692 org.liufeng.weixin.main.MenuManager 菜单创建成功！

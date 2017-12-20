@@ -1,0 +1,2 @@
+[ERROR] 2017-05-24 11:21:16,317 org.liufeng.course.util.CommonUtil 获取token失败 errcode:40125 errmsg:invalid appsecret, view more at http://t.cn/RAEkdVq hint: [EdOOHa0077e544]
+[INFO ] 2017-05-24 13:50:58,288 org.liufeng.weixin.main.MenuManager 菜单创建成功！
